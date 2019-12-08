@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="apache-commons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/apache-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/apache-commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/apache-xmlrpc-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/openerp-java-api-1.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/jnativehook-2.1.20170819.175004-41-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/libs/java" />
+      <root url="file://$PROJECT_DIR$/libs/java1" />
+      <root url="file://$PROJECT_DIR$/libs/java2" />
+      <root url="file://$PROJECT_DIR$/libs/java3" />
+    </SOURCES>
+  </library>
+</component>

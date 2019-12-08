@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ChoiceController">
+   <children>
+      <ComboBox fx:id="project" layoutX="14.0" layoutY="48.0" onAction="#chooseProject" prefHeight="32.0" prefWidth="322.0" promptText="choose a Project" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 7;" />
+      <MenuBar layoutX="3.0" layoutY="2.0" prefHeight="25.0" prefWidth="400.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ComboBox fx:id="task" layoutX="14.0" layoutY="247.0" onAction="#chooseProject" prefHeight="32.0" prefWidth="322.0" promptText="choose a task" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 7;" />
+      <Button layoutX="301.0" layoutY="651.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="85.0" text="Next" />
+   </children>
+</AnchorPane>

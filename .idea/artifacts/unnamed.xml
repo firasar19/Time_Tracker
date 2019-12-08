@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="library" level="project" name="org-apache-ws-commons-util" />
+      <element id="library" level="project" name="apache-commons" />
+      <element id="file-copy" path="$PROJECT_DIR$/../lib/postgresql-42.2.5.jar" />
+      <element id="library" level="project" name="jfoenix-8.0.8" />
+      <element id="library" level="project" name="controlsfx-8.40.14" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Nouveau dossier (2)/jackson-annotations-2.9.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Nouveau dossier (2)/jackson-core-2.9.6.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Nouveau dossier (2)/jackson-databind-2.9.6.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Nouveau dossier (2)/jjwt-0.9.1.jar" />
+      <element id="module-output" name="untitled22" />
+      <element id="archive" name="archive.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

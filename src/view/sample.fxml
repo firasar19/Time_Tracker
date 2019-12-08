@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="447.0" snapToPixel="false" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <ImageView fitHeight="105.0" fitWidth="372.0" layoutX="93.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assests/logo-def.png" />
+         </image>
+      </ImageView>
+      <Pane layoutY="134.0" prefHeight="564.0" prefWidth="447.0">
+         <children>
+            <TextField id="tbx" fx:id="user" alignment="CENTER" layoutX="82.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="61.0" prefWidth="278.0" promptText="Login" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: red; -fx-background-color: transparent;" styleClass="tbx" stylesheets="@style/textbox.css">
+               <font>
+                  <Font name="icon-ui" size="21.0" />
+               </font></TextField>
+            <PasswordField id="tbx2" fx:id="mp" alignment="CENTER" blendMode="DARKEN" layoutX="81.0" layoutY="272.0" prefHeight="61.0" prefWidth="278.0" promptText="Password" style="-fx-border-width: 0px 0px 2px 0px; -fx-background-color: transparent; -fx-border-color: red;" styleClass="tbx" stylesheets="@style/textbox.css">
+               <font>
+                  <Font name="icon-ui" size="21.0" />
+               </font></PasswordField>
+            <Button id="Button" fx:id="login" layoutX="90.0" layoutY="378.0" mnemonicParsing="false" onAction="#login" prefHeight="61.0" prefWidth="260.0" style="-fx-background-radius: 100;" styleClass="Button" stylesheets="@style/Button.css" text="Login" />
+            <CheckBox layoutX="173.0" layoutY="465.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="217.0" text="Remember Me" />
+
+
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
